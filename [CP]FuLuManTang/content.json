@@ -1,0 +1,39 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "FuLuManTang_floor": {
+                    "ID": "FuLuManTang_floor",
+                    "Texture": "Mods/FuLuManTang/Floors",
+                    "IsFlooring": true,
+                    "Count": 1
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "FuLuManTang_wall": {
+                    "ID": "FuLuManTang_wall",
+                    "Texture": "Mods/FuLuManTang/Walls",
+                    "IsFlooring": false,
+                    "Count": 1
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/FuLuManTang/Floors",
+            "FromFile": "assets/floor.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/FuLuManTang/Walls",
+            "FromFile": "assets/wall.png"
+        }
+    ]
+}

@@ -1,0 +1,570 @@
+{
+	"Format": 2,
+	"Furniture": {
+		//摆件
+		"FuLuManTang.catalogue": {
+			"Display Name": "福禄满堂目录",
+			"Description": "福禄满堂阁家具",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/catalogue.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 28
+			},
+			"Shop Id": "FuLuManTang.catalogue",
+			"Shows in Shops": [
+				"Carpenter"
+			]
+		},
+		"FuLuManTang.table1": {
+			"Display Name": "平安几",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table1.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 43
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.table2": {
+			"Display Name": "桌案-右",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table2.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 49
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.table5": {
+			"Display Name": "桌案-左",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table5.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 47
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.table3": {
+			"Display Name": "红鼓台",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table3.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.vase1": {
+			"Display Name": "一株腊梅",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/vase1.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 14,
+				"Height": 26
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.vase3": {
+			"Display Name": "迎客松",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/vase3.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 28,
+				"Height": 26
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.vase4": {
+			"Display Name": "斜枝",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/vase4.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 17,
+				"Height": 29
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.vase2": {
+			"Display Name": "金桔灿",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 2,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/vase2.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 48
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.table4": {
+			"Display Name": "桌案-中",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 3,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table4.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 49
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.table6": {
+			"Display Name": "福寿案",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 5,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/table6.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 80,
+				"Height": 50
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		//灯
+		"FuLuManTang.lamp1": {
+			"Display Name": "烛灯",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 0,
+			"Source Image": "assets/lamp1.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}, // in pixels,
+			"Toggle": true,
+			"Light Sources": [
+				{
+					"Position": {
+						"X": 8,
+						"Y": 0
+					},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_on"
+				}
+			],
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.lamp2": {
+			"Display Name": "彩灯串-左",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			}, // in tiles
+			"Placement Restriction": 2,
+			"Source Image": "assets/lamp2.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 42
+			}, // in pixels,
+			"Toggle": true,
+			"Light Sources": [
+				{
+					"Position": {
+						"X": 8,
+						"Y": 0
+					},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_on"
+				}
+			],
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.lamp3": {
+			"Display Name": "彩灯串-右",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			}, // in tiles
+			"Placement Restriction": 2,
+			"Source Image": "assets/lamp3.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 42
+			}, // in pixels,
+			"Toggle": true,
+			"Light Sources": [
+				{
+					"Position": {
+						"X": 8,
+						"Y": 0
+					},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_on"
+				}
+			],
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.screen": {
+			"Display Name": "花鲤屏",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 4,
+				"Height": 1
+			},
+			"Placement Restriction": 0,
+			"Source Image": "assets/screen.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 80
+			}, // in pixels,
+			"Toggle": true,
+			"Light Sources": [
+				{
+					"Position": {
+						"X": 8,
+						"Y": 0
+					},
+					"Source Image": "Content/LooseSprites/Lighting/indoorWindowLight.png",
+					"Mode": "when_on"
+				}
+			],
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		//床
+		"FuLuManTang.bed": {
+			"Display Name": "如意榻",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 4,
+				"Height": 3,
+				"Map": "XXXX/..../XXXX"
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/bed.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 64,
+				"Height": 65
+			},
+			"Layers": [
+				{
+					"Source Rect": {
+						"X": 0,
+						"Y": 0,
+						"Width": 0,
+						"Height": 0
+					},
+					"Depth": 2
+				}
+			],
+			"Bed Area Pixel": {
+				"X": 16,
+				"Y": 16,
+				"Width": 32,
+				"Height": 32
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			],
+			"Special Type": "Bed",
+			"Bed Type": "Double",
+			"Bed Spot": {
+				"X": 1,
+				"Y": 1
+			},
+		},
+		//地毯
+		"FuLuManTang.carpet": {
+			"Display Name": "团年毯",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Placement Type": "Rug",
+			"Source Image": "assets/carpet.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 81,
+				"Height": 81
+			},
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		//墙饰
+		"FuLuManTang.Doorframe": {
+			"Display Name": "梁柱",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 3,
+				"Height": 3
+			},
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+			"Source Image": "assets/Door frame.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			}, // in pixels
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.door": {
+			"Display Name": "福临门",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 3,
+				"Height": 3
+			},
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+			"Source Image": "assets/door.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			}, // in pixels
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.window": {
+			"Display Name": "贺春窗",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 3,
+				"Height": 3
+			},
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+			"Source Image": "assets/window.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 48,
+				"Height": 48
+			}, // in pixels
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.fan": {
+			"Display Name": "引春扇",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 2,
+				"Height": 2
+			},
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+			"Source Image": "assets/fan.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 32,
+				"Height": 32
+			}, // in pixels
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		"FuLuManTang.maroon": {
+			"Display Name": "炮竹声",
+			"Rotations": 1,
+			"Collisions": {
+				"Width": 1,
+				"Height": 2
+			},
+			"Placement Restriction": 0,
+			"Placement Type": "Mural",
+			"Source Image": "assets/maroon.png",
+			"Source Rect": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			}, // in pixels
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		},
+		//椅子
+		"FuLuManTang.chair": {
+			"Display Name": "红鼓凳",
+			"Rotations": 4,
+			"Collisions": {
+				"Width": 1,
+				"Height": 1
+			},
+			"Placement Restriction": 2,
+			"Source Image": "assets/chair.png",
+			"Source Rect": {
+				"Down": {
+					"X": 0,
+					"Y": 0,
+					"Width": 16,
+					"Height": 16
+				},
+				"Right": {
+					"X": 16,
+					"Y": 0,
+					"Width": 16,
+					"Height": 16
+				},
+				"Up": {
+					"X": 32,
+					"Y": 0,
+					"Width": 16,
+					"Height": 16
+				},
+				"Left": {
+					"X": 48,
+					"Y": 0,
+					"Width": 16,
+					"Height": 16
+				}
+			},
+			"Layers": {
+				"Up": [
+					{
+						"Source Rect": {
+							"X": 32,
+							"Y": 32,
+							"Width": 16,
+							"Height": 16
+						}
+					}
+				]
+			},
+			"Seats": [
+				{
+					"Position": {
+						"X": 0,
+						"Y": 0
+					},
+					"Player Direction": {
+						"Up": 0,
+						"Right": 1,
+						"Down": 2,
+						"Left": 3
+					}
+				}
+			],
+			"Shows in Shops": [
+				"FuLuManTang.catalogue"
+			]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "[CP]福禄满堂阁",
+  "Author": "土豆",
+  "Version": "1.0.0",
+  "Description": "",
+  "UniqueID": "potato.FuLuManTang.CP",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
